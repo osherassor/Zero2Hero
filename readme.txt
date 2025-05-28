@@ -440,6 +440,19 @@
         •	Redirection (>, >>, <) and piping (|)
         •	Wildcards and globbing (*, ?)
         •	Using help and /? syntax
+        o	Navigating the filesystem with cd, dir, cls, tree
+        o	File operations: copy, move, del, ren, mkdir, rmdir
+        o	Viewing system info: systeminfo, tasklist, ipconfig, netstat
+        o	Managing processes: taskkill, start, shutdown
+        o	Network operations: ping, tracert, net use, net view, arp, nslookup
+        o	Scripting basics: .bat files, echo, set, if, for, call, goto
+        o	Registry operations: reg add, reg query, reg delete
+        o	Permissions and users: net user, net localgroup, runas
+        o	File comparison and checksum: fc, comp, certutil -hashfile
+        o	Encoding and decoding base64: certutil -encode, certutil -decode
+        o	Downloading files: certutil -urlcache -split -f for remote files
+        o	Digital certificate utilities: certutil -store, certutil -verify, certutil -dump
+        o	Advanced batch scripting examples
         ✍️ File & Folder Operations:
             o	dir, cd, mkdir, rmdir, del, copy, move, xcopy, robocopy
             o	Attributes: attrib, icacls
@@ -477,6 +490,41 @@
             o	echo, pause, cls, color
             o	Testing scripts safely
             o	Interacting with .reg files
+  •	📁 File Types and Structures
+        o	Executable formats: .exe, .dll, .sys, .bat, .ps1
+        o	Document formats: .docx, .pdf, .rtf, .txt
+        o	Archive formats: .zip, .rar, .7z, .tar.gz
+        o	Image formats: .jpg, .png, .bmp, .svg
+        o	Multimedia formats: .mp4, .mp3, .avi, .mkv
+        o	Configuration formats: .ini, .conf, .yaml, .json, .xml
+        o	Log files: structure, delimiters, timestamps, and severity levels
+        o	Proprietary vs Open formats
+    
+  • 🧮 Encoding and Character Sets
+        o	ASCII and Extended ASCII
+        o	Unicode: UTF-8, UTF-16, UTF-32
+        o	Base64 encoding and decoding
+        o	URL encoding
+        o	Hexadecimal and Binary representations
+        o	Endianness (Big-endian vs Little-endian)
+        o	BOM (Byte Order Mark) and its impact on file parsing
+    •	🧪 Parsing and Manipulation Tools
+        o	cat, less, more, head, tail, strings
+        o	xxd, hexdump, binwalk, file
+        o	jq, xmlstarlet, yq, csvkit
+        o	iconv and character encoding conversion
+    •	🔎 File Metadata & Attributes
+        o	File timestamps: Created, Modified, Accessed
+        o	File permissions and ACLs
+        o	Alternate Data Streams (ADS) on NTFS
+        o	Hidden/system attributes
+        o	Signature validation and hash comparison (MD5, SHA1, SHA256)
+    •	📦 Forensics Considerations
+        o	Understanding file carving
+        o	Recognizing anomalies in file headers/footers
+        o	Common obfuscation techniques in documents (e.g., macros)
+        o	File magic numbers
+
 🐗 Linux Fundamentals
     •	🐧 Linux Operating System Overview
         o	History and evolution of Linux
@@ -611,6 +659,7 @@
         o	Policy enforcement (SCPs, Azure Policies)
         o	GDPR, HIPAA, ISO, SOC, NIST in cloud
         o	Audit logs and compliance reports
+
 🧠 Programming & Scripting Foundations
     •	🔤 Programming Concepts Overview
         o	What is programming?
@@ -671,6 +720,522 @@
         o	Simulating process scheduler (C++)
         o	Simple REST client (C# or Python)
         o	Memory game or number guesser app
+📦 Software Development Environments
+        •	🧑‍💻 Integrated Development Environments (IDEs)
+                o	What is an IDE?
+                o	Examples: Visual Studio, VS Code, IntelliJ, Eclipse
+                o	Extensions, plugins, linters
+                o	Debuggers and breakpoints
+                o	Build systems (CMake, MSBuild, Gradle)
+        •	🛠️ Compilers & Interpreters
+                o	GCC, Clang, MSVC
+                o	.NET CLR and Mono
+                o	Python and Bash interpreters
+                o	Just-in-Time vs Ahead-of-Time compilation
+                o	Compilation pipelines and optimization flags
+        •	🧪 Testing & Debugging Tools
+                o	Unit testing frameworks (NUnit, PyTest, Catch2)
+                o	Code coverage tools
+                o	Memory analyzers (Valgrind, Dr. Memory)
+                o	Debugging tools (GDB, WinDbg, LLDB)
+        •	📁 Project Structure & Version Control
+                o	Directory structure best practices
+                o	Configuration files (.env, .gitignore, requirements.txt)
+                o	Git fundamentals: clone, commit, branch, merge
+                o	Remote repositories: GitHub, GitLab, Bitbucket
+                o	Version control strategies: GitFlow, trunk-based dev
+        •	📜 Documentation & Standards
+                o	Code documentation: docstrings, XML comments
+                o	README files and API documentation
+                o	Coding conventions and linters
+                o	OpenAPI / Swagger for API docs
+        •	🧪 Build & CI/CD Systems
+                o	Jenkins, GitHub Actions, GitLab CI
+                o	Build pipelines: stages and artifacts
+                o	Docker integration in CI/CD
+                o	Unit and integration test automation
+        •	📦 Package Managers
+                o	C++: Conan, vcpkg
+                o	.NET: NuGet
+                o	Python: pip, poetry
+                o	Node.js: npm, yarn
+                o	Dependency versioning, pinning
+        •	🖥️ Cross-Platform Considerations
+                o	Windows vs Linux pathing, line endings, permissions
+                o	Portable code strategies
+                o	Preprocessor macros
+        •	🔍 Code Quality & Analysis
+                o	Static analysis tools (SonarQube, ESLint, Pylint)
+                o	Code smells and anti-patterns
+                o	Technical debt management
+        •	📄 Software Licensing & Ethics
+                o	GPL, MIT, Apache, BSD licenses
+                o	Proprietary vs open-source implications
+                o	Ethical coding practices and attribution
+
+🧮 Networking
+        •	🌐 Networking Fundamentals
+                o	What is a Network?
+                o	Network Types: LAN, WAN, MAN, PAN
+                o	Packet Switching vs Circuit Switching
+                o	Network Topologies
+                        	Historical topologies: Token Ring, Bus
+                        	Modern topologies: Star, Mesh, Tree, Hybrid
+                o	Network Models
+                        	OSI Model
+                        	TCP/IP Stack
+                o	Network Performance Metrics
+                        	Latency, Jitter, Bandwidth, Throughput
+                        	MTU, MSS
+                o	Broadcast Domain vs Collision Domain
+                        	Definitions, diagrams, and simulations
+                        	Switch segmentation and VLAN boundaries
+                        	Real-world implications in network design
+                o	Message Types: Unicast, Broadcast, Multicast
+                        	Layer 2: MAC unicast, multicast (01:00:5E), broadcast (FF:FF:FF:FF:FF:FF)
+                        	Layer 3: IP unicast, broadcast (255.255.255.255), multicast (224.0.0.0/4)
+                        	IGMP and multicast group management
+                        	ARP and DHCP as broadcast examples
+                        	DNS as unicast example
+                        	Practical packet captures using Wireshark
+    •	🧱 Networking Devices (Extended)
+                o	Routers
+                        	Static vs dynamic routing
+                        	Default routes
+                        	CIDR and summarization
+                o	Switches
+                        	Spanning Tree Protocol (STP, RSTP, MSTP)
+                        	MAC learning and port forwarding decisions
+                        	VLAN trunking (802.1Q)
+                        	Switchport security features
+                o	Hubs vs Switches
+                        	Historical role of hubs
+                        	Why switches replaced hubs
+                        	Collision domains in hub networks
+                        	Packet flooding vs MAC-based forwarding
+                        	Demo lab: Sniffing on a hub vs switch
+                o	NICs and Interfaces
+                        	Promiscuous mode
+                        	Duplex mismatch issues
+                        	Auto-negotiation
+                o	Firewalls
+                        	Deep Packet Inspection (DPI)
+                        	Zone-based firewall logic
+                        	Common vendor CLI: Cisco ASA, Palo Alto
+                o	Load Balancers
+                        	Algorithms: Round-robin, least connections
+                        	Health checks
+                        	Application awareness (SSL termination)
+                o	Wireless Infrastructure
+                        	SSIDs, channels, encryption (WEP, WPA2, WPA3)
+                        	2.4 GHz vs 5 GHz vs 6 GHz bands
+                        	Access Point roles (controller-based, standalone)
+                o	Modems and Gateways
+                        	DSL, Cable, Fiber modems
+                        	NAT behavior in gateways
+                        	Dual NAT and CGNAT explained
+    •	🏗️ OSI Model Layers (Expanded)
+                o	Physical Layer
+                        	Cable standards: Cat5e, Cat6, Cat6a, Cat7
+                        	Fiber optic types: single-mode, multi-mode
+                        	Signal degradation and attenuation
+                        	Bit-level transmission simulation
+                o	Data Link Layer
+                        	Ethernet frame breakdown: Preamble, SFD, MACs, Type, FCS
+                        	Switch loop protection (STP, BPDU Guard)
+                        	VLAN tagging and double tagging (Q-in-Q)
+                        	MAC flooding attacks (brief intro)
+                o	Network Layer
+                        	IPv4 fragmentation and reassembly
+                        	Subnetting techniques and exercises
+                        	Route redistribution concepts
+                        	NAT types (static, dynamic, PAT)
+                        	Layer 3 ACLs and firewalling
+                o	Transport Layer
+                        	TCP handshake deep dive (SYN, SYN-ACK, ACK)
+                        	Retransmission and sliding window mechanics
+                        	UDP with practical examples: TFTP, SNMP
+                        	Port scans: SYN, FIN, NULL, Xmas (not exploitative yet)
+                o	Session Layer
+                        	SSL/TLS handshake overview
+                        	RDP, SMB session creation
+                o	Presentation Layer
+                        	Data transformation: ASCII vs Unicode
+                        	SSL/TLS encryption examples
+                o	Application Layer
+                        	HTTP headers: Host, Cookie, User-Agent
+                        	DNS record types: A, AAAA, CNAME, MX, TXT
+                        	DHCP options and packet flow (DORA)
+                        	FTP active vs passive mode
+                        	SMTP, IMAP, POP3 comparison
+
+🔐 Security Basics
+        •	🛡️ Foundations of Security
+                o	What is Information Security?
+                        	Confidentiality, Integrity, Availability (CIA Triad)
+                        	Non-repudiation and Authentication
+                        	Real-world examples of CIA violations
+                o	Security Terminology
+                        	Asset, Threat, Vulnerability, Exploit, Risk, Control
+                        	Threat actor types: script kiddies, insiders, nation-states, APTs
+                o	Security Principles
+                        	Least privilege
+                        	Defense in depth
+                        	Fail-safe defaults
+                        	Separation of duties
+                        	Security through obscurity (debate)
+                o	Types of Controls
+                        	Physical, Administrative, Technical
+                        	Preventive, Detective, Corrective, Deterrent, Recovery
+                o	Security Domains
+                        	Physical security
+                        	Network security
+                        	Application security
+                        	Endpoint security
+                        	Data security
+                        	Identity and access management
+                        	Cloud security (relation to cloud foundations)
+        •	🔍 Vulnerabilities & Exposure
+                o	Common vulnerabilities
+                        	Misconfigurations
+                        	Unpatched systems
+                        	Weak credentials
+                        	Insecure defaults
+                        	Lack of encryption
+                o	Public databases
+                        	CVE, CVSS scoring
+                        	NVD, Exploit DB (overview only)
+                o	Security misconfigurations examples
+                        	Directory listing
+                        	Default credentials
+                        	Unrestricted ports/services
+                o	Software and firmware lifecycle issues
+                        	EOL/legacy systems
+                        	Supply chain vulnerabilities
+        •	🔐 Authentication & Authorization Basics
+                o	Authentication types
+                        	Single-factor, Two-factor, MFA
+                        	Something you know/have/are
+                        	Passwords, OTPs, Smart cards, Biometrics
+                o	Credential Storage Principles
+                        	Hashing vs Encryption
+                        	Salted hashes (bcrypt, scrypt)
+                        	Insecure storage examples (plain text, reversible encryption)
+                o	Authorization Models
+                        	RBAC, ABAC, DAC, MAC
+                        	Access Control Lists (ACLs)
+                        	Principle of least privilege
+                        	Segregation of duties
+        •	🔒 Encryption Fundamentals
+                o	Symmetric vs Asymmetric Encryption
+                o	Common algorithms: AES, RSA, ECC
+                o	Hashing algorithms: SHA family, MD5 (deprecated)
+                o	Encoding vs Encryption vs Hashing
+                o	SSL/TLS basics (how HTTPS works)
+                o	Certificates and PKI
+                        	Root, intermediate, leaf certs
+                        	Certificate validation and revocation (CRL/OCSP)
+        •	📊 Security Policies & Compliance
+                o	What are security policies?
+                        	Acceptable Use Policy
+                        	Password Policy
+                        	Data Retention Policy
+                        	Remote Work Policy
+                o	Introduction to compliance
+                        	ISO 27001
+                        	NIST 800-series
+                        	SOC 2
+                        	GDPR overview (personal data, consent, DSRs)
+                        	HIPAA overview
+        •	🛠️ Security Tools 
+                o	Antivirus/Antimalware basics
+                o	Host-based firewall (Windows Defender Firewall)
+                o	File integrity monitoring
+                o	Basic packet filtering firewalls
+                o	Centralized log review
+        •	🧠 Mindset & Awareness
+                o	Security as a continuous process
+                o	Red team / blue team concepts 
+                o	Security awareness for users
+                        	Phishing recognition
+                        	Social engineering prevention
+                        	Data classification and handling
+📁 Filesystems & Storage
+        •	💾 Filesystem Concepts
+                o	What is a filesystem?
+                        	Purpose and role in OS
+                        	Relation to physical storage
+                o	Structure of a filesystem
+                        	Blocks, clusters, sectors
+                        	Inodes (Unix/Linux)
+                        	MFT (Windows NTFS)
+                o	File types and metadata
+                        	Regular files, directories, symbolic links
+                        	Permissions and timestamps
+                        	Hidden/system attributes
+        •	🧷 Common Filesystems
+                o	FAT32
+                        	Legacy use cases
+                        	Max file/partition size
+                        	Lack of permissions
+                o	NTFS
+                        	Journaling
+                        	ACL-based permissions
+                        	Alternate data streams (ADS)
+                        	Encryption (EFS)
+                o	exFAT
+                        	Use in USB and SD cards
+                        	Compatibility
+                o	ext2/ext3/ext4
+                        	Differences in journaling
+                        	Use of inodes
+                        	Linux compatibility
+                o	Btrfs, XFS, ZFS (overview)
+        •	🧩 Storage Technologies
+                o	HDD vs SSD
+                        	Mechanical vs flash memory
+                        	Lifespan, wear leveling
+                o	Hybrid drives (SSHD)
+                o	NVMe & SATA interfaces
+                o	Storage controllers (RAID overview)
+                        	RAID levels: 0, 1, 5, 6, 10
+                        	Software vs Hardware RAID
+        •	🗂️ Mounting & Partitioning
+                o	Partition tables
+                        	MBR vs GPT
+                        	Primary vs extended partitions
+                o	Mounting concepts
+                        	Mount points
+                        	Fstab (Linux)
+                        	Disk Management (Windows)
+                o	Formatting and initialization
+                        	Quick format vs full format
+                        	Filesystem check (chkdsk, fsck)
+        •	🧪 Practical Tools & Utilities
+                o	Windows
+                        	Disk Management GUI
+                        	diskpart, format, chkdsk, fsutil
+                        	BitLocker (intro only)
+                o	Linux
+                        	lsblk, fdisk, parted, mkfs, mount, umount
+                        	df, du, fsck, tune2fs, blkid
+        •	🔐 Security & Forensics Aspects
+                o	Deleted file recovery
+                        	File carving basics
+                o	Journaling and write logs
+                        	Use in incident investigation
+                o	Hidden data and steganography
+                o	Access control implications
+                        	Permissions on file-level
+                        	Filesystem encryption
+
+🧩 Virtualization & Containers
+        •	🧰 Virtualization Basics
+                o	What is virtualization?
+                        	Concept of abstraction
+                        	Benefits: isolation, scalability, testing environments
+                o	Hypervisors
+                        	Type 1 (bare-metal) vs Type 2 (hosted)
+                        	Examples: VMware ESXi, Microsoft Hyper-V, VirtualBox
+                o	Guest OS vs Host OS
+        •	🖥️ Working with Virtual Machines
+                o	Creating VMs
+                        	ISO selection and installation
+                        	Assigning virtual hardware: CPU, RAM, disk, network
+                o	Snapshots and cloning
+                        	Use cases for testing and recovery
+                o	VM networking modes
+                        	NAT, bridged, host-only
+        •	🧱 Containers Fundamentals
+                o	What are containers?
+                        	Difference from VMs
+                        	Use of shared OS kernel
+                o	Container engines
+                        	Docker: image, container, volume, network
+                        	Podman (rootless alternative)
+                o	Dockerfile basics
+                        	Image layering, build process
+                o	Docker Compose overview
+        •	🕸️ Container Networking
+                o	Bridge networks
+                o	Host networking
+                o	Overlay networks (for clustering)
+                o	Port publishing and NAT
+        •	🔐 Security Considerations
+                o	VM escape basics (concept only)
+                o	Container isolation risks
+                o	Namespaces and control groups (cgroups)
+                o	Image scanning and hardening
+        •	🧪 Tools & Utilities
+                o	Virtualization
+                        	VirtualBox, VMware Workstation
+                        	QEMU, KVM
+                o	Containers
+                        	Docker CLI
+                        	Docker Desktop GUI
+                        	docker inspect, docker exec, docker logs
+🔗 Active Directory & Domain Services
+        •	🏛️ Core Concepts of Active Directory (AD)
+                o	What is AD and why it's used
+                o	Centralized authentication and authorization
+                o	Domains, trees, forests
+                o	Logical & physical structure: DCs, OUs, Sites, Global Catalog
+        •	👥 Users, Groups & Access Management
+                o	Local vs domain accounts
+                o	Group types & scopes
+                o	OU design and best practices
+                o	Group nesting, RBAC, administrative tiers
+                o	GPO basics and deep dive
+        •	🧠 Authentication & Trust Models
+                o	Kerberos authentication flow (AS, TGS, TGT, ST)
+                o	NTLMv1 vs NTLMv2
+                o	NTLM authentication flow
+                o	Trust relationships
+                o	SSO and token delegation
+                o	SID, RID, and token structure
+                o	Pass-the-Hash (concept only, not exploitation)
+        •	🧰 Administrative Tools & Management
+                o	Active Directory Users & Computers (ADUC): creating, modifying, disabling accounts
+                o	ADAC, GPMC, ADSI Edit
+                o	PowerShell Modules for AD
+                        	Creating bulk users and groups
+                        	Enforcing password policies
+                        	Querying trust relationships
+                        	Searching nested groups
+        •	🔐 Permissions, ACLs & Delegation
+                o	NTFS permissions vs share permissions
+                o	Effective permissions
+                o	DACL, SACL, ACE entries
+                o	Inheritance & blocking
+                o	Delegation Wizard use cases
+                o	Auditing: enabling and interpreting
+        •	📡 DNS Integration & SRV Records
+                o	Role of DNS in domain joining
+                o	SRV records for Kerberos, LDAP
+                o	Dynamic DNS registration
+                o	Testing DNS with nslookup, nltest
+        •	🧪 Diagnostics & Troubleshooting
+                o	Common tools: dcdiag, repadmin, nltest, netdom, whoami
+                o	Troubleshooting logon failures
+                o	Diagnosing replication issues
+                o	Reading AD event logs
+        •	🧬 Schema, FSMO Roles & Replication
+                o	AD Schema explained
+                o	Schema extensions and risks
+                o	5 FSMO roles and their responsibilities
+                o	Replication flow, latency, and conflict resolution
+                o	Site links and replication topology
+        •	🧩 Enterprise Design Patterns & Scenarios
+                o	Tier 0/1/2 models
+                o	Domain isolation vs resource forest
+                o	Multi-domain architecture
+                o	Trust design in mergers & hybrid clouds
+                o	Integration with Azure AD
+
+📚 Fundamental IT Protocols
+        •	🌐 Protocol Layers Overview
+                o	OSI vs TCP/IP models
+                o	Layered approach and encapsulation
+        •	💬 Application Layer Protocols (OSI Layer 7)
+                o	HTTP/HTTPS: headers, status codes, methods
+                o	DNS: record types, resolution flow, recursive vs iterative
+                o	SMTP/IMAP/POP3: mail transfer, authentication
+                o	DHCP: DORA process, scopes, leases
+                o	SNMP: OIDs, community strings, MIB
+                o	FTP/SFTP/FTPS: modes, ports, secure transfer differences
+                o	LDAP: directory structure, queries, authentication
+                o	RDP: security layers, ports, tunneling
+                o	SSH: key exchange, secure remote access, port forwarding
+                o	SMB: file sharing, NTLM authentication, vulnerabilities
+                o	NFS: Unix file sharing basics, mount types
+                o	Telnet: insecure terminal access, legacy use cases
+        •	📶 Transport Layer Protocols (OSI Layer 4)
+                o	TCP: handshake, sequence numbers, retransmissions
+                o	UDP: stateless communication, DNS, VoIP
+                o	Common ports and services
+                o	NAT traversal techniques
+        •	🧱 Network Layer Protocols (OSI Layer 3)
+                o	IPv4: subnetting, CIDR, classes, ARP
+                o	IPv6: addressing, scopes, transition strategies
+                o	ICMP: ping, traceroute, types
+                o	Routing basics: static vs dynamic, protocols (OSPF, BGP, RIP)
+        •	🔌 Data Link Layer Protocols (OSI Layer 2)
+                o	Ethernet: MAC addressing, frame format
+                o	VLANs and trunking
+                o	ARP table and spoofing
+                o	STP and loop prevention
+        •	⚙️ Physical Layer & Encodings (OSI Layer 1)
+                o	Bit transmission, cables, modulation
+                o	Signal interference and attenuation
+                o	Standards: Cat5/6/7, fiber optics
+        •	🔍 Protocol Analysis Tools
+                o	Wireshark: filters, decoding protocols
+                o	tcpdump, tshark
+                o	Netcat, Telnet
+                o	nslookup, dig
+        •	🧪 Common Network Protocol Attacks (Conceptual)
+                o	DNS poisoning (not exploitation)
+                o	IP spoofing theory
+                o	ARP cache poisoning overview
+                o	TCP session hijacking concept
+                o	SMB relay attack theory
+                o	SSH brute-force risk concept
+        •	📘 RFCs & Protocol Documentation
+                o	Understanding how to read an RFC
+                o	Using protocol standards for troubleshooting
 
 
 
+💾 System Administration & IT Operations
+        •	🖥️ Workstation Management
+                o	Installing and configuring operating systems
+                o	Imaging and deployment techniques
+                o	Device drivers: understanding, updating, rollback
+                o	Windows Update, WSUS
+                o	Scheduled Tasks, Task Scheduler management
+                o	Time synchronization (NTP)
+                o	BIOS vs UEFI configuration
+        •	🧰 System Tools and Utilities
+                o	Control Panel vs Settings
+                o	System Information (msinfo32, dxdiag)
+                o	Event Viewer: log types, filtering, diagnosis
+                o	Resource Monitor, Performance Monitor
+                o	Services (services.msc), service dependencies
+                o	MSC snap-ins and their functions
+        •	🧼 System Maintenance
+                o	Disk Cleanup, Defragmentation
+                o	Windows Resource Protection (sfc, DISM)
+                o	System Restore and Shadow Copies
+                o	Registry backup and restore
+        •	🔄 User and Session Management
+                o	Local users and groups
+                o	Profiles (local vs roaming)
+                o	UAC and elevation
+                o	Fast user switching and session concurrency
+                o	Logon types and authentication flow
+        •	🔌 Device and Peripheral Management
+                o	Printers and print queues
+                o	USB policies and restrictions
+                o	Mounting drives, drive letters, network drives
+        •	🗃️ Software Management
+                o	Installation types: MSI, EXE, Windows Store
+                o	Silent installs, deployment automation
+                o	Uninstall tools, leftover cleanup
+        •	💼 Task Automation & Scripting
+                o	PowerShell: cmdlets, pipelines, remoting
+                o	CMD: batch scripting, control flow, for loops
+                o	Scheduled scripts and task triggers
+                o	Automation use cases (shutdowns, backups, logs)
+        •	🌐 Remote Access & Support
+                o	RDP, VNC, and third-party tools
+                o	Windows Remote Assistance
+                o	Remote MMC usage, WMI and PowerShell remoting
+        •	🔐 Security Configurations
+                o	BitLocker configuration and recovery
+                o	Group Policy Editor (gpedit.msc) usage
+                o	Local Security Policy and auditing
+                o	AppLocker, SRP (Software Restriction Policies)
+        •	🧭 System Navigation & Accessibility
+                o	Environment variables
+                o	File Explorer: hidden/system files, view options
+                o	Accessibility 
