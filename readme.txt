@@ -130,6 +130,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         o	Interpreting motherboard error codes
         o	Documentation, schematics, manuals usage
 
+
 🧠 Digital Logic & Binary Systems
     •	💻 Binary Number Systems
         o	What is binary and why computers use it
@@ -233,6 +234,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         o	Logic in keyboard/mouse controllers
         o	Use in IoT device design
         o	Error detection in communication protocols
+
 
 🖥️ Operating System Fundamentals
         •	🧱 What is an Operating System?
@@ -345,6 +347,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         o	Init systems (init, systemd, launchd)
         o	Emergency and recovery modes
         o	Snapshot and rollback mechanisms
+
 
 🪠 Windows Internals
     •	🔧 Windows Architecture Overview
@@ -542,6 +545,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         o	Common obfuscation techniques in documents (e.g., macros)
         o	File magic numbers
 
+
 🐗 Linux Fundamentals
     •	🐧 Linux Operating System Overview
         o	History and evolution of Linux
@@ -622,6 +626,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         o	Secure shell (SSH) practices
         o	Disabling unused services
 
+
 ☁️ Cloud Computing Fundamentals
     •	☁️ Introduction to Cloud Computing
         o	Definition of Cloud Computing
@@ -676,6 +681,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         o	Policy enforcement (SCPs, Azure Policies)
         o	GDPR, HIPAA, ISO, SOC, NIST in cloud
         o	Audit logs and compliance reports
+
 
 🧠 Programming & Scripting Foundations
     •	🔤 Programming Concepts Overview
@@ -737,6 +743,8 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         o	Simulating process scheduler (C++)
         o	Simple REST client (C# or Python)
         o	Memory game or number guesser app
+
+
 📦 Software Development Environments
         •	🧑‍💻 Integrated Development Environments (IDEs)
                 o	What is an IDE?
@@ -789,6 +797,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                 o	GPL, MIT, Apache, BSD licenses
                 o	Proprietary vs open-source implications
                 o	Ethical coding practices and attribution
+
 
 🧮 Networking
         •	🌐 Networking Fundamentals
@@ -886,6 +895,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                         o	FTP active vs passive mode
                         o	SMTP, IMAP, POP3 comparison
 
+
 🔐 Security Basics
         •	🛡️ Foundations of Security
                 o	What is Information Security?
@@ -977,6 +987,8 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                         o	Phishing recognition
                         o	Social engineering prevention
                         o	Data classification and handling
+
+
 📁 Filesystems & Storage
         •	💾 Filesystem Concepts
                 o	What is a filesystem?
@@ -1046,6 +1058,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                         o	Permissions on file-level
                         o	Filesystem encryption
 
+
 🧩 Virtualization & Containers
         •	🧰 Virtualization Basics
                 o	What is virtualization?
@@ -1091,6 +1104,8 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                         o	Docker CLI
                         o	Docker Desktop GUI
                         o	docker inspect, docker exec, docker logs
+
+
 🔗 Active Directory & Domain Services
         •	🏛️ Core Concepts of Active Directory (AD)
                 o	What is AD and why it's used
@@ -1149,6 +1164,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                 o	Trust design in mergers & hybrid clouds
                 o	Integration with Azure AD
 
+
 📚 Fundamental IT Protocols
         •	🌐 Protocol Layers Overview
                 o	OSI vs TCP/IP models
@@ -1200,7 +1216,6 @@ This is a living project — evolving as technology, threats, and roles evolve. 
         •	📘 RFCs & Protocol Documentation
                 o	Understanding how to read an RFC
                 o	Using protocol standards for troubleshooting
-
 
 
 💾 System Administration & IT Operations
@@ -1257,6 +1272,7 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                 o	File Explorer: hidden/system files, view options
                 o	Accessibility 
 
+
 🧪 Software & Application Behavior
         •	📁 How Software Works
                 o	What is software: binary vs interpreted
@@ -1303,7 +1319,10 @@ This is a living project — evolving as technology, threats, and roles evolve. 
                 o	CLI tools vs GUI software
                 o	Web-based apps (client-server model)
                 o	Mobile apps (Android/iOS architecture)
+
+
 CYBER
+
 🛡️ Security Appliances & Defensive Mechanisms
         •	🔥 Firewalls (FW)
                 o	Types of firewalls:
@@ -1403,6 +1422,7 @@ CYBER
                 o	Compliance mapping (e.g., ISO, NIST, PCI)
                 o	Recommendations for tuning, upgrades, or redundancy
 
+
 🔒 Cybersecurity Foundations
         •	🌐 Cybersecurity Principles & Domains
                 o	CIA Triad (Confidentiality, Integrity, Availability)
@@ -1435,6 +1455,8 @@ CYBER
                 o	Man-in-the-middle
                 o	Replay attacks
                 o	Malware categories (worms, trojans, ransomware, spyware)
+
+
 📰 OSINT (Open Source Intelligence)
         •	🕵️‍♂️ Introduction to OSINT
                 o	Definition and value of OSINT in cybersecurity
@@ -1606,6 +1628,7 @@ CYBER
                 •	Secure coding countermeasures for each OWASP Top 10 category
                 •	Mapping to CWE IDs, MITRE ATT&CK techniques, and compliance requirements
 
+
 🌐 Internal & External Infrastructure Pentesting (with MITRE Mapping)
         •	📤 External Infrastructure Testing
                 o	Goal: Assess attack surface from the internet
@@ -1649,7 +1672,6 @@ CYBER
                 o	Screenshots, payloads used, logs
                 o	Remediation recommendations
                 o	Executive summary and technical deep dive
-
 
 
 📄 Structure of a Penetration Testing Report
@@ -1733,6 +1755,7 @@ CYBER
                 o	SHA256 hash of report PDF for verification
                 o	Digital signature or PGP key (if applicable)
                 o	Notes on confidential handling and destruction after use
+
 
 📱 Mobile Application Penetration Testing
         •	📲 Goals & Scope
@@ -1852,6 +1875,8 @@ CYBER
                 o	IAM and privilege graphs (e.g., PMapper)
                 o	Remediation steps and cloud-specific hardening advice
                 o	MITRE ATT&CK mapping for cloud-based techniques
+
+
 🤖 Generative AI Attacks
         •	🧠 Introduction to Generative AI and LLMs
                 o	What is Generative AI?
@@ -1911,6 +1936,7 @@ CYBER
                 o	LangChainGuard, PromptBench
                 o	GPT4 Jailbreak tracker repos
                 o	Adversarial testing platforms for generative models
+
 
 🖥️ Thick Client Application Penetration Testing
         •	🎯 Goals & Scope
@@ -2048,6 +2074,7 @@ CYBER
                 o	Integration roadmap for secure coding and DevSecOps
                 o	Executive summary for stakeholders
 
+
 ⚙️ CI/CD Security Processes
         •	🎯 Purpose & Relevance
                 o	Secure the entire DevOps pipeline from design to deployment
@@ -2102,6 +2129,7 @@ CYBER
                 o	Executive summary for management on DevSecOps maturity
                 o	Timeline of implementation and security improvements
 
+
 📡 Wi-Fi Penetration Testing
         •	🔍 Objective
                 o	Identify and exploit security weaknesses in wireless networks
@@ -2155,6 +2183,7 @@ CYBER
                 o	Risk rating based on potential access (e.g., internal network pivot)
                 o	Suggested detection mechanisms (WIDS/WIPS, log analysis)
 
+
 📻 RF (Radio Frequency) Security Testing
         •	🎯 Objective
                 o	Assess and exploit vulnerabilities in RF-based technologies (beyond Wi-Fi)
@@ -2203,6 +2232,77 @@ CYBER
                 o	Recommendations for RF shielding, protocol hardening, and signal isolation
                 o	Risk rating per device or protocol used
                 o	RF spectrum assessment log and interference footprint
+
+
+🧷 Hardware Penetration Testing
+        •	🧭 Introduction to Hardware Hacking
+                o	What is hardware penetration testing?
+                o	Goals: data extraction, bypass protections, physical compromise
+                o	Typical targets: routers, IoT, embedded devices, ATMs, POS
+                o	Legal and ethical considerations
+                o	Required lab equipment and safety
+        •	🔌 Physical Interface Discovery & Access
+                o	Identifying debugging interfaces (UART, JTAG, SPI, I2C)
+                o	Locating test points and headers
+                o	Pinout mapping with multimeter / logic analyzer
+                o	Interfacing with:
+                        o	UART (via USB-TTL converters)
+                        o	SPI flash chips (via SOIC clip)
+                        o	JTAG (via JTAGulator, OpenOCD)
+                o	Chip-off techniques and desoldering
+        •	📡 RF and Wireless Communication Analysis
+                o	Common protocols: Bluetooth, Zigbee, LoRa, Sub-GHz, NFC, RFID
+                o	SDR tools: HackRF, RTL-SDR, Flipper Zero, Yard Stick One
+                o	Signal capture and replay attacks (GQRX, Universal Radio Hacker)
+                o	Rolling code vs static code systems
+                o	Side-channel attacks: EM leakage, power analysis 
+        •	💾 Firmware Extraction & Analysis
+                o	Dumping firmware from flash chips (e.g., SPI NOR)
+                o	Firmware formats: bin, hex, ELF, squashfs, uImage
+                o	Tools: Binwalk, Firmware Mod Kit, Ghidra, QEMU, Cutter
+                o	Reconstructing file systems
+                o	Identifying credentials, hardcoded keys, and backdoors
+                o	Signature and integrity validation bypass
+        •	🧠 Reverse Engineering & Debugging
+                o	Identifying microcontrollers (MCU) and chipsets
+                o	Reading datasheets and identifying pinout
+                o	Using IDA Pro / Ghidra for disassembly
+                o	Tracing function calls and memory access
+                o	Emulating firmware for dynamic analysis
+        •	🔐 Bypassing Protections
+                o	UART shell drop and serial console login
+                o	Bootloader exploitation (U-Boot, CFE)
+                o	Logic flaws in update mechanism
+                o	Password reset via flash modification
+                o	NAND / NOR mirroring and tamper detection bypass
+        •	🧰 Tools & Equipment
+                o	Multimeter, oscilloscope, soldering iron, hot air station
+                o	USB analyzers, logic analyzers
+                o	SOIC clips, breakout boards
+                o	Bus Pirate, JTAGulator, Saleae Logic
+                o	Flipper Zero, Proxmark3, HackRF One
+                o	3D-printed enclosures and probe holders
+        •	🧪 Lab Setup & Workflow
+                o	Safe device disassembly
+                o	Isolation and anti-static precautions
+                o	Documentation and photography
+                o	Labeling connections and pinouts
+                o	Working with partially functional devices
+                o	Tracking modifications
+        •	🧠 Real-World Scenarios
+                o	IoT device bootloader bypass
+                o	ATM firmware extraction and tamper detection
+                o	Consumer router shell access via UART
+                o	Smart lock replay attack over BLE
+                o	Embedded Linux root access via soldered SPI
+        •	📋 Reporting & Deliverables
+                o	Physical evidence photos (PCB, wiring, ports)
+                o	Firmware hashes, extracted secrets
+                o	Attack narrative with diagrams
+                o	Vulnerability descriptions and CVSS scores
+                o	Suggested mitigations (encryption, secure boot, fuse settings)
+                o	Recommendations for future designs
+
 
 🦠 Malware Analysis
         •	🔍 Introduction to Malware Analysis
@@ -2290,6 +2390,8 @@ CYBER
                 o	MITRE ATT&CK mapping
                 o	Screenshots of execution and network traffic
                 o	Recommendations and remediation actions
+
+
 🛡️ Security Operations Center (SOC)
         •	🏢 SOC Fundamentals
                 o	Purpose and role of a SOC
@@ -2352,6 +2454,8 @@ CYBER
                 o	Using lab environments (e.g., DetectionLab, Security Onion)
                 o	Capture The Flag (CTF) exercises
                 o	Simulated attacks (Atomic Red Team, Caldera, MITRE ATT&CK Evaluations)
+
+
 📜 Governance, Risk, and Compliance (GRC)
         •	📘 Foundations of GRC
                 o	Definitions: Governance, Risk Management, Compliance
@@ -2398,6 +2502,8 @@ CYBER
                 o	Control testing and validation
                 o	Updating policies with lessons learned
                 o	Integrating GRC with DevSecOps workflows
+
+
 
 🔍Digital Forensics & Incident Response (DFIR)
         •	🧭 Introduction to DFIR
@@ -2450,7 +2556,7 @@ CYBER
                         o	API-based evidence acquisition
                         o	Legal jurisdiction and challenges
         •	🚨 Incident Response Process
-        o	Preparation
+                o	Preparation:
                         o	IR plan, playbooks, roles and responsibilities
                         o	Logging, alerting, and communication strategies
                 o	Identification
