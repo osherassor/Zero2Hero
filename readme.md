@@ -1,4 +1,4 @@
-#📘 About This Document – A Personal Note
+📘 About This Document – A Personal Note
 
 As someone deeply rooted in the world of cybersecurity, I believe that true expertise doesn’t start with tools or exploits — it starts with foundations. Cybersecurity is built on understanding: how operating systems work, how memory is managed, how a packet flows through a network, how code interacts with hardware. Only when these principles are mastered can we begin to think like attackers, defenders, architects, or investigators.
 
