@@ -172,55 +172,55 @@ Each topic below is linked to its dedicated folder and contains structured knowl
 
 | Domain | Topics |
 |--------|--------|
-| [Cybersecurity Foundations](./Cybersecurity%20Foundations) | CIA Triad |
+| [Cybersecurity Foundations](./Cyber%20Security%20Domain/Cybersecurity%20Foundations) | CIA Triad |
 |  | Risk vs Threat |
 |  | Security Controls |
 |  | Kill Chain |
 |  | Attacker Types |
-| [Security Appliances & Defensive Mechanisms](./Security%20Appliances%20%26%20Defensive%20Mechanisms) | Firewalls |
+| [Security Appliances & Defensive Mechanisms](./Cyber%20Security%20Domain/Security%20Appliances%20%26%20Defensive%20Mechanisms) | Firewalls |
 |  | WAF |
 |  | EDR/XDR |
 |  | IDS/IPS |
 |  | DLP |
 |  | NAC |
-| [OSINT (Open Source Intelligence)](./OSINT%20%28Open%20Source%20Intelligence%29) | Passive/Active Recon |
+| [OSINT (Open Source Intelligence)](./Cyber%20Security%20Domain/OSINT%20%28Open%20Source%20Intelligence%29) | Passive/Active Recon |
 |  | Metadata Analysis |
 |  | Social Media |
 |  | Infrastructure Enumeration |
 |  | Tools & Techniques |
-| [Penetration Test](./Penetration%20Test) | [Web Application](./Penetration%20Test/Web%20Application%20Penetration%20Testing) |
-|  | [Mobile Application](./Penetration%20Test/Mobile%20Application%20Penetration%20Testing) |
-|  | [Thick Client](./Penetration%20Test/Thick%20Client%20Application%20Penetration%20Testing) |
-|  | [Internal & External Infra](./Penetration%20Test/Internal%20%26%20External%20Infrastructure%20Pentesting%20%28with%20MITRE%20Mapping%29) |
-|  | [Cloud](./Penetration%20Test/Cloud%20Penetration%20Testing) |
-|  | [Wi-Fi](./Penetration%20Test/Wi-Fi%20Penetration%20Testing) |
-|  | [RF](./Penetration%20Test/Radio%20Frequancy%20Penetration%20Test) |
-|  | [Hardware](./Penetration%20Test/Hardware%20Penetration%20Testing) |
-|  | [OT](./Penetration%20Test/OT%20%28Operational%20Technology%29%20Penetration%20Testing) |
+| [Penetration Test](./Cyber%20Security%20Domain/Penetration%20Test) | [Web Application](./Cyber%20Security%20Domain/Penetration%20Test/Web%20Application%20Penetration%20Testing) |
+|  | [Mobile Application](./Cyber%20Security%20Domain/Penetration%20Test/Mobile%20Application%20Penetration%20Testing) |
+|  | [Thick Client](./Cyber%20Security%20Domain/Penetration%20Test/Thick%20Client%20Application%20Penetration%20Testing) |
+|  | [Internal & External Infra](./Cyber%20Security%20Domain/Penetration%20Test/Internal%20%26%20External%20Infrastructure%20Pentesting%20%28with%20MITRE%20Mapping%29) |
+|  | [Cloud](./Cyber%20Security%20Domain/Penetration%20Test/Cloud%20Penetration%20Testing) |
+|  | [Wi-Fi](./Cyber%20Security%20Domain/Penetration%20Test/Wi-Fi%20Penetration%20Testing) |
+|  | [RF](./Cyber%20Security%20Domain/Penetration%20Test/Radio%20Frequancy%20Penetration%20Test) |
+|  | [Hardware](./Cyber%20Security%20Domain/Penetration%20Test/Hardware%20Penetration%20Testing) |
+|  | [OT](./Cyber%20Security%20Domain/Penetration%20Test/OT%20%28Operational%20Technology%29%20Penetration%20Testing) |
 |  | [LLM Attacks](./Penetration%20Test/LLM%20Attacks) |
-|  | [Security Code Review](./Penetration%20Test/Security%20Code%20Review) |
-|  | [Structure of a PT Report](./Penetration%20Test/Structure%20of%20a%20Penetration%20Testing%20Report) |
-| [Security Operations Center (SOC)](./Security%20Operations%20Center%20%28SOC%29) | SIEM & SOAR |
+|  | [Security Code Review](./Cyber%20Security%20Domain/Penetration%20Test/Security%20Code%20Review) |
+|  | [Structure of a PT Report](./Cyber%20Security%20Domain/Penetration%20Test/Structure%20of%20a%20Penetration%20Testing%20Report) |
+| [Security Operations Center (SOC)](./Cyber%20Security%20Domain/Security%20Operations%20Center%20%28SOC%29) | SIEM & SOAR |
 |  | Alert Triage |
 |  | Threat Hunting |
 |  | Incident Response |
-| [Digital Forensics & Incident Response (DFIR)](./Digital%20Forensics%20%26%20Incident%20Response%20%28DFIR%29) | Memory Forensics |
+| [Digital Forensics & Incident Response (DFIR)](./Cyber%20Security%20Domain/Digital%20Forensics%20%26%20Incident%20Response%20%28DFIR%29) | Memory Forensics |
 |  | Network Forensics |
 |  | Malware Triage |
 |  | Timeline Reconstruction |
-| [Malware Analysis](./Malware%20Analysis) | Static Analysis |
+| [Malware Analysis](./Cyber%20Security%20Domain/Malware%20Analysis) | Static Analysis |
 |  | Dynamic Analysis |
 |  | Persistence |
 |  | C2 Behavior |
-| [Reverse Engineering Fundamentals](./Reverse%20Engineering%20Fundamentals) | Binary Dissection |
+| [Reverse Engineering Fundamentals](./Cyber%20Security%20Domain/Reverse%20Engineering%20Fundamentals) | Binary Dissection |
 |  | Assembly |
 |  | Debugging |
 |  | Anti-Reversing |
-| [CI/CD Security Processes](./CICD%20Security%20Processes) | Threat Modeling |
+| [CI/CD Security Processes](./Cyber%20Security%20Domain/CICD%20Security%20Processes) | Threat Modeling |
 |  | Secure Coding |
 |  | SAST / DAST |
 |  | Pipeline Hardening |
-| [Governance, Risk, and Compliance (GRC)](./Governance%2C%20Risk%2C%20and%20Compliance%20%28GRC%29) | ISO/NIST |
+| [Governance, Risk, and Compliance (GRC)](./Cyber%20Security%20Domain/Governance%2C%20Risk%2C%20and%20Compliance%20%28GRC%29) | ISO/NIST |
 |  | Risk Register |
 |  | Control Mapping |
 |  | Audit Readiness |
