@@ -14,9 +14,10 @@ This is a living project — evolving as technology, threats, and roles evolve. 
 
 — **Osher Assor**   <img src="https://static.wixstatic.com/media/6e5019_5854134ecc1d4b8ea537a47df28ab320~mv2.png/v1/fill/w_473,h_473,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6e5019_5854134ecc1d4b8ea537a47df28ab320~mv2.png" alt="Osher Assor" width="120" align="right" />
 
-
+-
+-
 ---
-
+-
 
 ### 📌 This list outlines the core knowledge required for anyone pursuing a career in cybersecurity.
 
