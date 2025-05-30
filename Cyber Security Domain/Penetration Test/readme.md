@@ -136,28 +136,17 @@
 - Mapping to CWE IDs, MITRE ATT&CK techniques, and compliance requirements
 
 
-### 🧭 Attack Flow (Mermaid Diagram)
+## 🛠️ Penetration Testing Topics Overview
 
-```mermaid
-flowchart TD
-    A[Initial Access] --> B[External Recon (OSINT, Shodan)]
-    B --> C[Port & Service Scanning (Nmap, Masscan)]
-    C --> D[Vulnerability Scanning (CVE, Nuclei, Nessus)]
-    D --> E[Exploitation (T1190, T1078, Public Exploits)]
-    E --> F[Internal Foothold / VPN Entry / LAN Access]
+| Penetration Test Type | Subjects |
+|-----------------------|----------|
+| [Web Application Penetration Testing](./Web%20Application%20Penetration%20Testing) | - Reconnaissance <br> - Authentication <br> - Input Injection <br> - Business Logic <br> - File Uploads <br> - Session Management <br> - API Security <br> - Deployment Issues <br> - OWASP Top 10 |
+| [Mobile Application Penetration Testing](./Mobile%20Application%20Penetration%20Testing) | - Static & Dynamic Analysis <br> - Business Logic <br> - Local Storage <br> - Communication Security <br> - OWASP Mobile Top 10 <br> - Reverse Engineering |
+| [Thick Client Application Penetration Testing](./Thick%20Client%20Application%20Penetration%20Testing) | - Static/Dynamic Analysis <br> - Business Logic Testing <br> - Reverse Engineering <br> - Authentication <br> - File System and Network Traffic |
+| [Internal & External Infrastructure Pentesting (with MITRE Mapping)](./Internal%20%26%20External%20Infrastructure%20Pentesting%20%28with%20MITRE%20Mapping%29) | - External Recon & Exploitation <br> - Internal Enumeration <br> - Privilege Escalation <br> - Lateral Movement <br> - Deliverables |
+| [Cloud Penetration Testing](./Cloud%20Penetration%20Testing) | - IAM Misconfigurations <br> - Storage Exposure <br> - Service-Specific Exploits <br> - Post-Exploitation <br> - Containers <br> - Logging Evasion |
+| [Radio Frequancy Penetration Test](./Radio%20Frequancy%20Penetration%20Test) | - RF Fundamentals <br> - Reconnaissance <br> - Replay & MiTM Attacks <br> - BLE/Zigbee/NFC Testing <br> - Flipper Zero <br> - Faraday Cage <br> - FCC ID Recon |
+| [Hardware Penetration Testing](./Hardware%20Penetration%20Testing) | - Interface Discovery <br> - Firmware Extraction <br> - Reverse Engineering <br> - Protection Bypass <br> - Glitching <br> - Real-World Attacks |
+| [OT (Operational Technology) Penetration Testing](./OT%20%28Operational%20Technology%29%20Penetration%20Testing) | - ICS Protocols <br> - SCADA Systems <br> - Purdue Model <br> - Physical Interface Testing <br> - OT Threat Modeling |
 
-    F --> G[Internal Recon (BloodHound, SMB, ARP)]
-    G --> H[Credential Dumping (Mimikatz, procdump)]
-    H --> I[Lateral Movement (T1021: RDP, WinRM, WMI)]
-    I --> J[Privilege Escalation (T1068, misconfigs)]
-    J --> K[Persistence (Scheduled Tasks, Registry)]
-    K --> L[Data Exfiltration (DNS, HTTP)]
-    L --> M[Cleanup & Anti-Forensics]
 
-    subgraph MITRE Mapping
-        E
-        H
-        I
-        J
-    end
-```
